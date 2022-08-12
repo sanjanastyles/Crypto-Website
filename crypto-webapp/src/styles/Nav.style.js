@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const NavBarContainer = styled.nav`
   width: 100%;
-  height: ${(props) => props.extendNavbar && "100vh"};
+  height: ${(props) => props.extendNavbar && "20vh"};
   padding: 1% 7%;
   background-color: #7de0d0;
   display: flex;
