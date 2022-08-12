@@ -1,13 +1,19 @@
 import "./App.css";
-import Header from "./Header";
-import Nav from "./Nav.js";
+import Header from "./components/Header";
+import Nav from "./components/Nav.js";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Nav />
+      <Routes>
+        <Route path="/" />
+        <Route path="/" />
+        <Route path="/" />
+      </Routes>
       <Header />
-    </div>
+    </Router>
   );
 }
 
