@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1fd41c485993e83d68c7",
+    "revision": "3e868d9203428e33071e",
     "url": "/Crypto-Website/static/css/main.0845a0a3.chunk.css"
   },
   {
-    "revision": "1fd41c485993e83d68c7",
-    "url": "/Crypto-Website/static/js/main.1fd41c48.chunk.js"
+    "revision": "3e868d9203428e33071e",
+    "url": "/Crypto-Website/static/js/main.3e868d92.chunk.js"
   },
   {
     "revision": "709d58a229027795f766",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/Crypto-Website/static/js/runtime~main.5efaf212.js"
   },
   {
-    "revision": "34d56224a00038159ef5fef6e684e355",
+    "revision": "eb15a0e8d1fe95c7842278d20e82124a",
     "url": "/Crypto-Website/index.html"
   }
 ];
