@@ -22,7 +22,7 @@ In my case, I've used Bitcoin, Tether and Ethereum </br>
 
 In your terminal, initialize the local directory as a Git repository, commit all the changes, and push it to remote by running the following command in the project root.
 
-````
+```
 git init
 git add .
 git commit -m "initial commit"
@@ -37,6 +37,7 @@ In your project’s package.json, add a homepage field, like this:
 ```
 "homepage": "https://myusername.github.io/my-app"
 ```
+
 myusername is your GitHub username and my-app is your repository’s name.
 
 Next, install gh-pages in your project.
@@ -53,7 +54,7 @@ In your package.json, add the following scripts.
     "test": "react-scripts test",
     "eject": "react-scripts eject"
 }
-````
+```
 
 predeploy and deploy are the only additions to the scripts. predeploy will automatically run before deploy and make sure the latest build of the application is deployed.
 
