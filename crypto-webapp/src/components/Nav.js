@@ -10,6 +10,7 @@ import {
   Language,
   Hamburger,
   NavbarLinkExtended,
+  Logo,
 } from "../styles/Nav.style";
 
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -21,6 +22,7 @@ export default function Nav() {
       <NavbarInner>
         <LeftContainer>
           <NavbarLinkContainer>
+            <Logo src="https://cdn.discordapp.com/attachments/947060629066354689/1008057843494178916/unknown.png" />
             <NavbarLink to="/"> Home </NavbarLink>
             <NavbarLink to="/"> About Us </NavbarLink>
             <NavbarLink to="/"> Features </NavbarLink>
@@ -43,7 +45,7 @@ export default function Nav() {
           <NavbarLinkExtended to="/"> Home </NavbarLinkExtended>
           <NavbarLinkExtended to="/"> About Us </NavbarLinkExtended>
           <NavbarLinkExtended to="/"> Features </NavbarLinkExtended>
-          <NavbarLinkExtended to="/"> Market </NavbarLinkExtended >
+          <NavbarLinkExtended to="/"> Market </NavbarLinkExtended>
         </NavbarExtended>
       )}
     </NavBarContainer>

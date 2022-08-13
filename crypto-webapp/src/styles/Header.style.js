@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderContainer = styled.header`
   .container {
     display: grid;
-    gap: 1px;
+    gap: 5px;
     grid-template-areas: " main main main right right right";
     width: 100%;
     padding: 0 7% 3%;
@@ -53,13 +53,10 @@ export const HeaderContainer = styled.header`
     align-items: right;
   }
 
-  @media only screen and (max-width: 1350px) {
+  @media only screen and (max-width: 1340px) {
     .container {
       grid-template-areas: "main main right right";
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
-    }
-    .background_img {
-      width: 350px;
     }
     .content h1 {
       font-size: 4rem;
@@ -69,6 +66,14 @@ export const HeaderContainer = styled.header`
     }
     .content .btn {
       font-size: 1rem;
+    }
+    .background_img > img {
+      width: 350px;
+    }
+    .coinList {
+      max-width: 350px;
+      display: table-column;
+      columns: 3;
     }
   }
   @media only screen and (max-width: 975px) {
@@ -82,15 +87,6 @@ export const HeaderContainer = styled.header`
       grid-area: right;
       width: 80%;
       margin-top: 5%;
-    }
-    .content h1 {
-      font-size: 4rem;
-    }
-    .content p {
-      font-size: 1rem;
-    }
-    .content .btn {
-      font-size: 1rem;
     }
   }
 `;

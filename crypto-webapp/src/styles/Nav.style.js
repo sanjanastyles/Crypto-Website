@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const NavBarContainer = styled.nav`
   width: 100%;
-  height: ${(props) => props.extendNavbar && "20vh"};
+  height: ${(props) => props.extendNavbar && "50%"};
   padding: 1% 7%;
   background-color: #7de0d0;
   display: flex;
@@ -72,12 +72,16 @@ export const Language = styled.a`
   display: flex;
   background: #a6ebdf;
   text-decoration: none;
-  border: 1px solid;
+  border: 2px solid #e9a7b3;
   color: #041c32;
   padding: 10px 30px;
   border-radius: 20px;
 `;
-
+export const Logo = styled.img`
+  width: 60px;
+  height: auto;
+  margin-right: 10px;
+`;
 export const Hamburger = styled.button`
   width: 70px;
   height: 50px;
