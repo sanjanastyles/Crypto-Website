@@ -10,6 +10,7 @@ export const Coin = styled.div`
   display: flex;
   align-items: center;
   font-size: 16px;
+  color: #fff;
   padding: 10px 10px;
 `;
 
@@ -20,7 +21,4 @@ export const Icon = styled.img`
 export const Name = styled.p`
   color: #ffccd5d8;
   font-weight: 550;
-`;
-export const Price = styled.h3`
-  color: #fff;
 `;

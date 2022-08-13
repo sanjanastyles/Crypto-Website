@@ -1,5 +1,5 @@
 import React from "react";
-import { CoinList, Coin, Icon, Name, Price } from "../styles/Coins.style";
+import { CoinList, Coin, Icon, Name } from "../styles/Coins.style";
 
 export default function Coins({ icon, price, name, prefix }) {
   return (
@@ -7,9 +7,9 @@ export default function Coins({ icon, price, name, prefix }) {
       <Coin>
         <Icon src={icon} />
         <div>
-          <Price>
+          <h4>
             {prefix} {price}
-          </Price>
+          </h4>
           <Name>{name}</Name>
         </div>
       </Coin>
