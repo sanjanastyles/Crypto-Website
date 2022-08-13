@@ -5,7 +5,6 @@ export const NavBarContainer = styled.nav`
   width: 100%;
   height: ${(props) => props.extendNavbar && "20vh"};
   padding: 1% 7%;
-  color: transparent;
   background-color: #7de0d0;
   display: flex;
   flex-direction: column;
@@ -51,6 +50,7 @@ export const NavbarLinkContainer = styled.div`
 
 export const NavbarLink = styled(Link)`
   font-family: Arial, Helvetica, sans-serif;
+  color: #041c32;
   font-size: 18px;
   text-decoration: none;
   margin: 10px;
@@ -73,6 +73,7 @@ export const Language = styled.a`
   background: #a6ebdf;
   text-decoration: none;
   border: 1px solid;
+  color: #041c32;
   padding: 10px 30px;
   border-radius: 20px;
 `;
