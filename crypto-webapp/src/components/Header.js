@@ -11,12 +11,16 @@ export default function Header() {
     )
       .then((response) => response.json())
       .then((data) => {
-        setCurrency(data.usd);
+        setBitCurrency(data.bitcoin.usd);
+        setEthCurrency(data.ethereum.usd);
+        setTethCurrency(data.tether.usd);
         setIsLoading(false);
       });
   }
 
-  const [currency, setCurrency] = useState([]);
+  const [BitCurrency, setBitCurrency] = useState([]);
+  const [EthCurrency, setEthCurrency] = useState([]);
+  const [TethCurrency, setTethCurrency] = useState([]);
   const [isLoading, setIsLoading] = useState();
 
   useEffect(() => {
@@ -48,18 +52,18 @@ export default function Header() {
               icon="https://bitcoin.org/img/icons/opengraph.png?1657703267"
               name="Bitcoin"
               prefix="$"
-              price={isLoading ? "loading" : currency}
+              price={isLoading ? "loading" : BitCurrency}
             />
             <Coins
               icon="https://s2.coinmarketcap.com/static/img/coins/200x200/825.png"
               name="Tether"
-              price={isLoading ? "loading" : currency}
+              price={isLoading ? "loading" : TethCurrency}
               prefix="$"
             />
             <Coins
               icon="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ethereum_logo_translucent.svg/640px-Ethereum_logo_translucent.svg.png"
               name="Ethereum"
-              price={isLoading ? "loading" : currency}
+              price={isLoading ? "loading" : EthCurrency}
               prefix="$"
             />
           </div>
