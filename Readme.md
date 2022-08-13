@@ -9,7 +9,7 @@ Open http://localhost:3000 to view it in your browser. The page will reload when
 `npm i react-router-dom` for routes in navbar.</br>
 `npm i styled-components` </br>
 
-## API
+## API 
 
 Visit [coingecko API](https://www.coingecko.com/en/api/documentation) documentation and generate an API endpoint as per your requirement ( read through [Token List](https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit#gid=0) to provide correct information)</br>
 In my case, I've used Bitcoin, Tether and Ethereum </br>
