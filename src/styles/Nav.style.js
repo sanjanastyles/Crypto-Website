@@ -5,6 +5,7 @@ export const NavBarContainer = styled.nav`
   width: 100%;
   height: ${(props) => props.extendNavbar && "20vh"};
   padding: 1% 7%;
+  color: transparent;
   background-color: #7de0d0;
   display: flex;
   flex-direction: column;
