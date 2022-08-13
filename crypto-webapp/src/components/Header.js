@@ -1,5 +1,6 @@
 import React from "react";
 import { HeaderContainer } from "../styles/Header.style";
+import Coins from "./Coins";
 
 export default function Header() {
   return (
@@ -23,6 +24,26 @@ export default function Header() {
             src="https://cdn.discordapp.com/attachments/903185096268472381/1007209435246116904/unknown.png"
             alt="stocks_image"
           />
+          <div className="coinList">
+            <Coins
+              icon="https://bitcoin.org/img/icons/opengraph.png?1657703267"
+              name="Bitcoin"
+              prefix="$"
+              price={0.0}
+            />
+            <Coins
+              icon="https://s2.coinmarketcap.com/static/img/coins/200x200/825.png"
+              name="Tether"
+              price={0.0}
+              prefix="$"
+            />
+            <Coins
+              icon="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ethereum_logo_translucent.svg/640px-Ethereum_logo_translucent.svg.png"
+              name="Ethereum"
+              price={0.0}
+              prefix="$"
+            />
+          </div>
         </div>
       </div>
     </HeaderContainer>

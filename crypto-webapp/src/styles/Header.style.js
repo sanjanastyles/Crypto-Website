@@ -9,7 +9,7 @@ export const HeaderContainer = styled.header`
     padding: 0 7% 3%;
     background-color: #041c32;
   }
-  .background_img > img {
+  .background_img {
     display: grid;
     align-items: right;
     margin-top: 5%;
@@ -46,6 +46,11 @@ export const HeaderContainer = styled.header`
     text-decoration: none;
     display: inline-block;
     font-size: 1.5rem;
+  }
+  .coinList {
+    display: table-column;
+    columns: 3;
+    align-items: right;
   }
 
   @media only screen and (max-width: 1350px) {

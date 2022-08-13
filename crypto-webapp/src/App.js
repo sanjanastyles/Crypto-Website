@@ -2,17 +2,18 @@ import "./App.css";
 import React from "react";
 import Header from "./components/Header";
 import Nav from "./components/Nav.js";
+import Coins from "./components/Coins";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <Router>
       <Nav />
-      <Routes>
+      {/* <Routes>
         <Route path="/" />
         <Route path="/" />
         <Route path="/" />
-      </Routes>
+      </Routes> */}
       <Header />
     </Router>
   );
