@@ -26,6 +26,7 @@ export default function Header() {
   useEffect(() => {
     loadCurrency();
   }, []);
+
   return (
     <HeaderContainer>
       <div className="container">
